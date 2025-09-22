@@ -15,6 +15,6 @@ public class VentanaPrincipal {
         frame.setSize(300,400);
         frame.setVisible(true);
     }
-//peit
+//peitpeitpeit
 
 }

@@ -14,7 +14,8 @@ public class VentanaPrincipal {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300,400);
         frame.setVisible(true);
+        frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
     }
-//peitpeitpeit
 
 }

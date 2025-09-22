@@ -4,9 +4,9 @@ public class VentanaPrincipal {
     private JPanel JPanel1;
     private JLabel Image1;
     private JTextField textField1;
-    private JTextField textField2;
     private JRadioButton acceptAMTermsRadioButton;
     private JButton signInButton;
+    private JPasswordField passwordField1;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("VentanaPrincipal");

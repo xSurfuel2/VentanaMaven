@@ -1,23 +1,42 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class VentanaPrincipal2 {
     private JPanel JPanel2;
-    private JLabel Image1;
-    private JTextField textField1;
     private JRadioButton acceptSFTermsRadioButton;
     private JButton signInButton;
     private JPasswordField passwordField1;
     private JPanel JPanel1;
     private JComboBox comboBox1;
+    private JRadioButton rememberUserRadioButton;
+    private JTextField textField1;
+    private JLabel banner;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("VentanaPrincipal2");
         frame.setContentPane(new VentanaPrincipal2().JPanel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600,600);
-        frame.setVisible(true);
+        frame.setSize(900,760);
+        frame.setResizable(false);
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
     }
 
-}
+        /*private static class fondoPanel extends JPanel
+        {
+            private final Image Image;
+            private Image banner;
+
+            public fondoPanel()
+                {
+                    Image=new ImageIcon(getClass().getResource("fondo.jpg")).getImage();
+                }
+            @Override
+            public void paintComponents(Graphics g)
+                {
+                    super.paintComponent(g);
+                    g.drawImage(banner,0,0,getWidth(),getHeight(),this);
+                }
+        }*/
+    }
+

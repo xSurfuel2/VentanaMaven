@@ -16,6 +16,8 @@ public class VentanaPrincipal {
         frame.setVisible(true);
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
+
     }
 
 }

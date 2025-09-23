@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 
 public class VentanaPrincipal2 {
     private JPanel JPanel2;
@@ -9,7 +8,7 @@ public class VentanaPrincipal2 {
     private JPanel JPanel1;
     private JComboBox comboBox1;
     private JRadioButton rememberUserRadioButton;
-    private JTextField textField1;
+    private JTextField introduceTextField;
     private JLabel banner;
 
     public static void main(String[] args) {

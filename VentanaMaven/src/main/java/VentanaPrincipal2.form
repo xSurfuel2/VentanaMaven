@@ -193,6 +193,7 @@
               <font name="JetBrains Mono" size="18" style="1"/>
               <foreground color="-393219"/>
               <text value=""/>
+              <toolTipText value="Your password will be hidden"/>
             </properties>
           </component>
           <component id="826b2" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
@@ -214,7 +215,7 @@
               </model>
             </properties>
           </component>
-          <component id="e1da" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+          <component id="e1da" class="javax.swing.JTextField" binding="introduceTextField" default-binding="true">
             <constraints>
               <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="153" height="-1"/>
@@ -224,6 +225,8 @@
               <background color="-13947600"/>
               <font name="JetBrains Mono" size="18" style="1"/>
               <foreground color="-1643009"/>
+              <text value=""/>
+              <toolTipText value="Introduce username or email" noi18n="true"/>
             </properties>
           </component>
           <grid id="8be74" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">

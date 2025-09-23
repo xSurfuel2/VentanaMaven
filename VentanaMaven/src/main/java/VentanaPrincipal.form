@@ -44,6 +44,7 @@
           <background color="-13947600"/>
           <font name="JetBrains Mono" size="14" style="1"/>
           <foreground color="-1643009"/>
+          <toolTipText value="Introduce your user here"/>
         </properties>
       </component>
       <component id="36a8e" class="javax.swing.JLabel">
@@ -139,6 +140,7 @@
           <background color="-13947600"/>
           <font name="JetBrains Mono" size="14" style="1"/>
           <foreground color="-393219"/>
+          <toolTipText value="Introduce AM code here"/>
         </properties>
       </component>
     </children>

@@ -213,6 +213,7 @@
                 <item value="Spanish"/>
                 <item value="Japanese"/>
               </model>
+              <toolTipText value="Select your language"/>
             </properties>
           </component>
           <component id="e1da" class="javax.swing.JTextField" binding="introduceTextField" default-binding="true">

@@ -19,6 +19,7 @@ public class VentanaPrincipal3 {
     private JSpinner spinner2;
     private JProgressBar progressBar1;
     private JButton signInButton;
+    private JSlider slider1;
 
     // Constructor
     public VentanaPrincipal3() {

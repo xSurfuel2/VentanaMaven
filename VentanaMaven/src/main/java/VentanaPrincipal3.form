@@ -1,228 +1,622 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VentanaPrincipal3">
-  <grid id="27dc6" binding="JPanel1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="JPanel1" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="722" height="470"/>
+      <xy x="20" y="20" width="877" height="593"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
       <tabbedpane id="361b" binding="tabbedPane1" default-binding="true">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="200" height="200"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-393219"/>
+        </properties>
         <border type="none"/>
         <children>
-          <grid id="566e1" binding="JTabbedPane1" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="566e1" binding="JTabbedPane1" layout-manager="GridLayoutManager" row-count="4" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
-              <tabbedpane title="Team 1"/>
+              <tabbedpane title="Team"/>
             </constraints>
             <properties>
-              <background color="-1643009"/>
+              <background color="-393219"/>
+              <font name="Unispace" size="12" style="0"/>
             </properties>
             <border type="none"/>
             <children>
               <component id="1e4eb" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <icon value="image/dragonite.jpg"/>
                   <text value=""/>
                 </properties>
               </component>
-              <vspacer id="fa02d">
-                <constraints>
-                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                </constraints>
-              </vspacer>
-              <component id="7cce5" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <foreground color="-13947600"/>
-                  <text value="Dragonite"/>
-                </properties>
-              </component>
               <component id="7c8d7" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
                   <foreground color="-13947600"/>
                   <text value="ATK:263   DEF:201   RES:182"/>
                 </properties>
               </component>
               <component id="ced8a" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
                 <constraints>
-                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
-                <properties/>
+                <properties>
+                  <toolTipText value="Introduce here your Pokemon level"/>
+                </properties>
               </component>
               <component id="9ce97" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
                   <foreground color="-13947600"/>
                   <text value="LVL:"/>
                 </properties>
               </component>
               <component id="f80fe" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <icon value="image/dragonite.jpg"/>
+                  <icon value="image/Luxray.jpg"/>
                   <text value=""/>
-                </properties>
-              </component>
-              <component id="c3584" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <foreground color="-13947600"/>
-                  <text value="Dragonite"/>
                 </properties>
               </component>
               <component id="79409" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
                   <foreground color="-13947600"/>
-                  <text value="ATK:263   DEF:201   RES:182"/>
+                  <text value="ATK:232   DEF:156   RES:190"/>
                 </properties>
               </component>
               <component id="c4f93" class="javax.swing.JSpinner" default-binding="true">
                 <constraints>
-                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties/>
-              </component>
-              <component id="14da2" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <foreground color="-13947600"/>
-                  <text value="LVL:"/>
+                  <toolTipText value="Introduce here your Pokemon level"/>
                 </properties>
               </component>
               <component id="1c09d" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <icon value="image/dragonite.jpg"/>
+                  <icon value="image/articuno.jpg"/>
                   <text value=""/>
                 </properties>
               </component>
               <component id="647d8" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
                   <foreground color="-13947600"/>
-                  <text value="Dragonite"/>
+                  <text value="Articuno"/>
                 </properties>
               </component>
               <component id="8f150" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
                   <foreground color="-13947600"/>
-                  <text value="ATK:263   DEF:201   RES:182"/>
+                  <text value="ATK:192   DEF:249   RES:180"/>
                 </properties>
               </component>
               <component id="31454" class="javax.swing.JSpinner" default-binding="true">
                 <constraints>
-                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties/>
-              </component>
-              <component id="34fe3" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <foreground color="-13947600"/>
-                  <text value="LVL:"/>
+                  <toolTipText value="Introduce here your Pokemon level"/>
                 </properties>
               </component>
               <component id="931b2" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <icon value="image/dragonite.jpg"/>
+                  <icon value="image/pikachu.jpg"/>
                   <text value=""/>
-                </properties>
-              </component>
-              <component id="945da" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <foreground color="-13947600"/>
-                  <text value="Dragonite"/>
                 </properties>
               </component>
               <component id="a7509" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
                   <foreground color="-13947600"/>
-                  <text value="ATK:263   DEF:201   RES:182"/>
+                  <text value="ATK:112   DEF:96   RES:111"/>
                 </properties>
               </component>
               <component id="e6a5f" class="javax.swing.JSpinner" default-binding="true">
                 <constraints>
-                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties/>
-              </component>
-              <component id="4d6b" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <toolTipText value="Introduce here your Pokemon level"/>
+                </properties>
+              </component>
+              <component id="4bdce" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="HP:"/>
+                </properties>
+              </component>
+              <component id="fd5b3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Pikachu"/>
+                </properties>
+              </component>
+              <component id="267dd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Luxray"/>
+                </properties>
+              </component>
+              <component id="36425" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Dragonite"/>
+                </properties>
+              </component>
+              <component id="c0e7a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
                   <foreground color="-13947600"/>
                   <text value="LVL:"/>
                 </properties>
               </component>
+              <component id="96ec9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="LVL:"/>
+                </properties>
+              </component>
+              <component id="59502" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="LVL:"/>
+                </properties>
+              </component>
+              <component id="15b89" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="HP:"/>
+                </properties>
+              </component>
+              <component id="10bdc" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="HP:"/>
+                </properties>
+              </component>
+              <component id="afe72" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="HP:"/>
+                </properties>
+              </component>
+              <component id="1d15e" class="javax.swing.JProgressBar" binding="progressBar1" default-binding="true">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <string value="85 %"/>
+                  <stringPainted value="true"/>
+                  <toolTipText value="This is your Pokemon Health bar"/>
+                  <value value="85"/>
+                </properties>
+              </component>
+              <component id="f2db2" class="javax.swing.JProgressBar" default-binding="true">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <string value="36 %"/>
+                  <stringPainted value="true"/>
+                  <toolTipText value="This is your Pokemon Health bar"/>
+                  <value value="36"/>
+                </properties>
+              </component>
+              <component id="475f6" class="javax.swing.JProgressBar" default-binding="true">
+                <constraints>
+                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <string value="76 %"/>
+                  <stringPainted value="true"/>
+                  <toolTipText value="This is your Pokemon Health bar"/>
+                  <value value="76"/>
+                </properties>
+              </component>
+              <component id="c3764" class="javax.swing.JProgressBar" default-binding="true">
+                <constraints>
+                  <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <string value="55 %"/>
+                  <stringPainted value="true"/>
+                  <toolTipText value="This is your Pokemon Health bar"/>
+                  <value value="55"/>
+                </properties>
+              </component>
             </children>
           </grid>
-          <grid id="3b9a1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="3b9a1" layout-manager="GridLayoutManager" row-count="4" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
-              <tabbedpane title="Team 2"/>
+              <tabbedpane title="Objects"/>
             </constraints>
-            <properties/>
+            <properties>
+              <background color="-393219"/>
+              <font name="JetBrains Mono" size="12" style="0"/>
+              <foreground color="-13947600"/>
+            </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="21260" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="24" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <icon value="image/pocion.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4ca5a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="40" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Potion"/>
+                </properties>
+              </component>
+              <component id="c5d4d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="146" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Heals a Pokemon 20HP"/>
+                </properties>
+              </component>
+              <component id="b83db" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="24" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <icon value="image/Piedra_fuego.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="1b41" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="40" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Fire Stone"/>
+                </properties>
+              </component>
+              <component id="aff26" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="146" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Used to evolve Pokemon"/>
+                </properties>
+              </component>
+              <component id="1f7cd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="24" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <icon value="image/Caramelo_raro.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="834fa" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="40" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Rare Candy"/>
+                </properties>
+              </component>
+              <component id="8fbe1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="146" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Give xp to a Pokemon"/>
+                </properties>
+              </component>
+              <component id="b1c37" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="24" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <icon value="image/cana.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="3a6a8" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="40" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Fishing Rod"/>
+                </properties>
+              </component>
+              <component id="23810" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="146" height="41"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Used to go fishing"/>
+                </properties>
+              </component>
+              <component id="bf846" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Price: 300¥"/>
+                  <toolTipText value="Price as shown in the shop"/>
+                </properties>
+              </component>
+              <component id="c32c6" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Price: 1500¥"/>
+                  <toolTipText value="Price as shown in the shop"/>
+                </properties>
+              </component>
+              <component id="eb3c8" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Price: 2400¥"/>
+                  <toolTipText value="Price as shown in the shop"/>
+                </properties>
+              </component>
+              <component id="284c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <foreground color="-13947600"/>
+                  <text value="Price: 3000¥"/>
+                  <toolTipText value="Price as shown in the shop"/>
+                </properties>
+              </component>
+              <component id="e02cd" class="javax.swing.JSpinner" binding="spinner2">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <toolTipText value="Introduce here your objects count"/>
+                </properties>
+              </component>
+              <component id="624d2" class="javax.swing.JSpinner" default-binding="true">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <toolTipText value="Introduce here your objects count"/>
+                </properties>
+              </component>
+              <component id="f8669" class="javax.swing.JSpinner" default-binding="true">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <toolTipText value="Introduce here your objects count"/>
+                </properties>
+              </component>
+              <component id="f616" class="javax.swing.JSpinner" default-binding="true">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <toolTipText value="Introduce here your objects count"/>
+                </properties>
+              </component>
+              <hspacer id="ae398">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="b0a28">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="4a630">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
           </grid>
         </children>
       </tabbedpane>
-      <vspacer id="4c017">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
       <hspacer id="93f7f">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
+      <hspacer id="b2ba7">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="40879">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="1c08b">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="a7658" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="40"/>
+          <foreground color="-1972950"/>
+          <icon value="image/308677c7-6223-45c5-9bdc-96a845673350_-_copia-removebg-preview.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cb483" class="javax.swing.JButton" binding="signInButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13947600"/>
+          <font name="JetBrains Mono" size="16" style="1"/>
+          <foreground color="-393219"/>
+          <text value="Sign in"/>
+        </properties>
+      </component>
+      <vspacer id="a4a0b">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ace98">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="918ae">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="f86ac">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
     </children>
   </grid>
 </form>

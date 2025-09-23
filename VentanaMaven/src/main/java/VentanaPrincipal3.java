@@ -9,12 +9,16 @@ public class VentanaPrincipal3 {
         frame.setVisible(true);
         frame.setSize(900,600);
         frame.setLocationRelativeTo(null);
+
     }
 
     private JPanel JPanel1;
     private JTabbedPane tabbedPane1;
     private JSpinner spinner1;
     private JPanel JTabbedPane1;
+    private JSpinner spinner2;
+    private JProgressBar progressBar1;
+    private JButton signInButton;
 
     // Constructor
     public VentanaPrincipal3() {
@@ -24,7 +28,10 @@ public class VentanaPrincipal3 {
         JPanel1.setOpaque(false);
         fondo.add(JPanel1, BorderLayout.CENTER); // pongo el Jpane original encima del fondo
         JPanel1 = fondo; // reasigno para que el JFrame lo use
+
     }
+
+
 
     // Clase interna para el fondo
     private static class FondoPanel extends JPanel {
@@ -32,8 +39,9 @@ public class VentanaPrincipal3 {
 
         public FondoPanel() {
             imagen = new ImageIcon(
-                    "C:/Users/Usuario1/Documents/VentanaMaven/VentanaMaven/src/main/resources/image/gyarados.gif"
+                    getClass().getResource("/image/gyarados.gif")
             ).getImage();
+
         }
 
         //Método para escalar la imagen a la ventana

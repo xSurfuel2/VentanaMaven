@@ -34,6 +34,7 @@
           <background color="-13947600"/>
           <font name="JetBrains Mono" size="18" style="1"/>
           <foreground color="-1643009"/>
+          <horizontalAlignment value="0"/>
           <toolTipText value="Introduce your user here"/>
         </properties>
       </component>
@@ -45,6 +46,7 @@
           <background color="-13947600"/>
           <font name="JetBrains Mono" size="14" style="1"/>
           <foreground color="-1643009"/>
+          <horizontalAlignment value="0"/>
           <text value="Accept AM Terms"/>
           <toolTipText value="Your data is secured"/>
         </properties>
@@ -71,6 +73,7 @@
           <background color="-13947600"/>
           <font name="JetBrains Mono" size="18" style="1"/>
           <foreground color="-393219"/>
+          <horizontalAlignment value="0"/>
           <toolTipText value="Introduce AM code here"/>
         </properties>
       </component>
@@ -137,6 +140,7 @@
           <background color="-13947600"/>
           <font name="JetBrains Mono" size="14" style="1"/>
           <foreground color="-393219"/>
+          <horizontalAlignment value="0"/>
           <text value="Accept to receive emails"/>
           <toolTipText value="You will receive adds"/>
         </properties>

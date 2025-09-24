@@ -61,10 +61,5 @@ Elementos añadidos:
 
 ---
 
-## 📸 Screenshots  
-📌 La presentación incluye ejemplos con personalización de estilo, colores e iconos (Aston Martin, Ferrari y versión creativa de Pokémon).  
-
----
-
 ## 🚀 Objetivo  
 Este proyecto muestra cómo crear **interfaces gráficas en Java** con distintos niveles de personalización y cómo integrar múltiples componentes visuales en aplicaciones de escritorio.

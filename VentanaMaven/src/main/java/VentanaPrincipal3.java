@@ -20,6 +20,7 @@ public class VentanaPrincipal3 {
     private JProgressBar progressBar1;
     private JButton signInButton;
     private JSlider slider1;
+    private JCheckBox checkBox1;
 
     // Constructor
     public VentanaPrincipal3() {

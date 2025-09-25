@@ -15,27 +15,11 @@ public class VentanaPrincipal2 {
         JFrame frame = new JFrame("VentanaPrincipal2");
         frame.setContentPane(new VentanaPrincipal2().JPanel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(900,760);
-        frame.setResizable(false);
+        frame.setSize(900,760); //Cambia el tamaño de la ventana
+        frame.setResizable(false); //Evita que se pueda cambiar el tamaño de la ventana
         frame.setVisible(true);
-        frame.setLocationRelativeTo(null);
+        frame.setLocationRelativeTo(null); //Centrar la ventana en la pantalla
     }
 
-        /*private static class fondoPanel extends JPanel
-        {
-            private final Image Image;
-            private Image banner;
-
-            public fondoPanel()
-                {
-                    Image=new ImageIcon(getClass().getResource("fondo.jpg")).getImage();
-                }
-            @Override
-            public void paintComponents(Graphics g)
-                {
-                    super.paintComponent(g);
-                    g.drawImage(banner,0,0,getWidth(),getHeight(),this);
-                }
-        }*/
     }
 

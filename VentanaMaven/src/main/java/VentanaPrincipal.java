@@ -13,11 +13,11 @@ public class VentanaPrincipal {
         JFrame frame = new JFrame("VentanaPrincipal");
         frame.setContentPane(new VentanaPrincipal().JPanel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600,600);
         frame.setVisible(true);
         frame.setVisible(true);
-        frame.setLocationRelativeTo(null);
-        frame.setResizable(false);
+        frame.setSize(600,600); //Cambia el tamaño de la ventana
+        frame.setLocationRelativeTo(null); //Centra la ventana en la pantalla
+        frame.setResizable(false); //Evita que la ventana sea ampliable
 
     }
 

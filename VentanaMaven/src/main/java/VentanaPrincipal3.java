@@ -28,8 +28,8 @@ public class VentanaPrincipal3 {
         FondoPanel fondo = new FondoPanel();
         fondo.setLayout(new BorderLayout());
         JPanel1.setOpaque(false);
-        fondo.add(JPanel1, BorderLayout.CENTER); // pongo el Jpane original encima del fondo
-        JPanel1 = fondo; // reasigno para que el JFrame lo use
+        fondo.add(JPanel1, BorderLayout.CENTER); //Pongo el Jpane original encima del fondo
+        JPanel1 = fondo; //Reasigno para que el JFrame lo use
 
     }
 
@@ -41,12 +41,12 @@ public class VentanaPrincipal3 {
 
         public FondoPanel() {
             imagen = new ImageIcon(
-                    getClass().getResource("/image/gyarados.gif")
+                    getClass().getResource("/image/gyarados.gif") //Ruta relativa al gif  de fondo.
             ).getImage();
 
         }
 
-        //Método para escalar la imagen a la ventana
+        //Metodo para escalar la imagen a la ventana
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
